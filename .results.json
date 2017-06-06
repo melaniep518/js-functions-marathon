@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-06-06T21:40:53.450Z",
+    "end": "2017-06-06T21:40:53.684Z",
+    "duration": 234
+  },
+  "tests": [
+    {
+      "title": "receives a string as a time and returns a float of the converted time to decimal",
+      "fullTitle": "timeToDecimal(time) receives a string as a time and returns a float of the converted time to decimal",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives a time as a decimal and returns a string with hours:minutes:seconds",
+      "fullTitle": "decimalToTime(time) receives a time as a decimal and returns a string with hours:minutes:seconds",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives a string (pace) and returns the calculated marathon time at that pace",
+      "fullTitle": "paceToMarathonTime(pace) receives a string (pace) and returns the calculated marathon time at that pace",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives a marathon time and returns the pace per mile to complete at that time",
+      "fullTitle": "marathonToPacePerMile(time) receives a marathon time and returns the pace per mile to complete at that time",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "receives a string as a time and returns a float of the converted time to decimal",
+      "fullTitle": "timeToDecimal(time) receives a string as a time and returns a float of the converted time to decimal",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives a time as a decimal and returns a string with hours:minutes:seconds",
+      "fullTitle": "decimalToTime(time) receives a time as a decimal and returns a string with hours:minutes:seconds",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives a string (pace) and returns the calculated marathon time at that pace",
+      "fullTitle": "paceToMarathonTime(pace) receives a string (pace) and returns the calculated marathon time at that pace",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives a marathon time and returns the pace per mile to complete at that time",
+      "fullTitle": "marathonToPacePerMile(time) receives a marathon time and returns the pace per mile to complete at that time",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}

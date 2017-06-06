@@ -1,4 +1,3 @@
-
 describe('timeToDecimal(time)', function() {
   it('receives a string as a time and returns a float of the converted time to decimal', function() {
     expect(timeToDecimal("0:15:0")).toEqual(0.25)
