@@ -10,7 +10,7 @@ function timeToDecimal(str) {
 function decimalToTime(time) {
   let hours = parseInt(time);
   let minutesAndSeconds = (time-hours)*60;
-  let minutes = ((time-hours)*60).toString().split('.')[0];
+  let minutes = minutesAndSeconds.toString().split('.')[0];
   let seconds = Math.round((minutesAndSeconds - minutes)*60);
   hours = hours.toString();
   if(hours.length === 1) {

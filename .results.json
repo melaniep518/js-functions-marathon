@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 0,
-    "start": "2017-06-06T21:40:53.450Z",
-    "end": "2017-06-06T21:40:53.684Z",
-    "duration": 234
+    "start": "2017-06-06T21:53:00.598Z",
+    "end": "2017-06-06T21:53:00.827Z",
+    "duration": 229
   },
   "tests": [
     {
@@ -27,14 +27,14 @@
     {
       "title": "receives a string (pace) and returns the calculated marathon time at that pace",
       "fullTitle": "paceToMarathonTime(pace) receives a string (pace) and returns the calculated marathon time at that pace",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "receives a marathon time and returns the pace per mile to complete at that time",
       "fullTitle": "marathonToPacePerMile(time) receives a marathon time and returns the pace per mile to complete at that time",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
@@ -59,14 +59,14 @@
     {
       "title": "receives a string (pace) and returns the calculated marathon time at that pace",
       "fullTitle": "paceToMarathonTime(pace) receives a string (pace) and returns the calculated marathon time at that pace",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "receives a marathon time and returns the pace per mile to complete at that time",
       "fullTitle": "marathonToPacePerMile(time) receives a marathon time and returns the pace per mile to complete at that time",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     }
